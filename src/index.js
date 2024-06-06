@@ -3,13 +3,13 @@ import ReactDOM from "react-dom/client";
 import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
-import { BrowseRouter } from "react-router-dom";
+import { BrowserRouter } from "react-router-dom";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-  <BrowseRouter basename="Emotion-FAS">
+  <BrowserRouter basename="Emotion-FAS">
     <App />
-  </BrowseRouter>
+  </BrowserRouter>
 );
 
 // If you want to start measuring performance in your app, pass a function
