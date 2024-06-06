@@ -80,9 +80,7 @@ const App = () => {
         setPlayerList={setPlayerList}
         maxPlayer={maxPlayer}
         setMaxPlayer={setMaxPlayer}
-        playPlayer={playPlayer}
         setPlayPlayer={setPlayPlayer}
-        isTeamMake={isTeamMake}
         setIsTeamMake={setIsTeamMake}
       />
     );

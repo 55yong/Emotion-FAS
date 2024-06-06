@@ -1,4 +1,4 @@
-import React, { useCallback, useEffect } from "react";
+import React, { useCallback } from "react";
 
 const List = React.memo(
   ({
@@ -6,9 +6,7 @@ const List = React.memo(
     showPlayerRight,
     playerList,
     setPlayerList,
-    playPlayer,
     setPlayPlayer,
-    isTeamMake,
     setIsTeamMake,
   }) => {
     const handleCheckedChange = useCallback(
@@ -24,10 +22,6 @@ const List = React.memo(
       },
       [playerList, setPlayerList]
     );
-
-    useEffect(() => {
-      console.log(playPlayer);
-    }, [playPlayer]);
 
     const handleSubmit = (e) => {
       e.preventDefault();

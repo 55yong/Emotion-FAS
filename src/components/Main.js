@@ -9,7 +9,6 @@ const Main = ({
   setPlayerList,
   maxPlayer,
   setMaxPlayer,
-  playPlayer,
   setPlayPlayer,
   isTeamMake,
   setIsTeamMake,
@@ -30,7 +29,6 @@ const Main = ({
         showPlayerRight={showPlayerRight}
         playerList={playerList}
         setPlayerList={setPlayerList}
-        playPlayer={playPlayer}
         setPlayPlayer={setPlayPlayer}
         isTeamMake={isTeamMake}
         setIsTeamMake={setIsTeamMake}
