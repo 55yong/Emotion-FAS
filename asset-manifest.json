@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Emotion-FAS/static/css/main.b8f6dd21.css",
+    "main.js": "/Emotion-FAS/static/js/main.da81b5e4.js",
+    "static/js/453.3991800e.chunk.js": "/Emotion-FAS/static/js/453.3991800e.chunk.js",
+    "index.html": "/Emotion-FAS/index.html",
+    "main.b8f6dd21.css.map": "/Emotion-FAS/static/css/main.b8f6dd21.css.map",
+    "main.da81b5e4.js.map": "/Emotion-FAS/static/js/main.da81b5e4.js.map",
+    "453.3991800e.chunk.js.map": "/Emotion-FAS/static/js/453.3991800e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b8f6dd21.css",
+    "static/js/main.da81b5e4.js"
+  ]
+}
